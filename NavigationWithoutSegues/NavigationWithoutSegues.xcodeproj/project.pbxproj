@@ -17,6 +17,8 @@
 		DD7EB9D229D321AE00371AD8 /* DemoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7EB9D129D321AE00371AD8 /* DemoViewController.storyboard */; };
 		DD81802629D331FD00C4DF1F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD81802529D331FD00C4DF1F /* LoginViewController.swift */; };
 		DD81802829D3321C00C4DF1F /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD81802729D3321C00C4DF1F /* LoginViewController.storyboard */; };
+		DD81802A29D336D400C4DF1F /* TermsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD81802929D336D400C4DF1F /* TermsViewController.storyboard */; };
+		DD81802D29D336F500C4DF1F /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD81802C29D336F500C4DF1F /* TermsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		DD7EB9D129D321AE00371AD8 /* DemoViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DemoViewController.storyboard; sourceTree = "<group>"; };
 		DD81802529D331FD00C4DF1F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DD81802729D3321C00C4DF1F /* LoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
+		DD81802929D336D400C4DF1F /* TermsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TermsViewController.storyboard; sourceTree = "<group>"; };
+		DD81802C29D336F500C4DF1F /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 		DD7EB9B729D31ABB00371AD8 /* NavigationWithoutSegues */ = {
 			isa = PBXGroup;
 			children = (
+				DD81802B29D336DD00C4DF1F /* Terms */,
 				DD81802429D331EB00C4DF1F /* Login */,
 				DD7EB9D329D3248600371AD8 /* Application */,
 				DD7EB9CD29D3214000371AD8 /* Demo */,
@@ -109,6 +114,15 @@
 				DD81802729D3321C00C4DF1F /* LoginViewController.storyboard */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		DD81802B29D336DD00C4DF1F /* Terms */ = {
+			isa = PBXGroup;
+			children = (
+				DD81802929D336D400C4DF1F /* TermsViewController.storyboard */,
+				DD81802C29D336F500C4DF1F /* TermsViewController.swift */,
+			);
+			path = Terms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +188,7 @@
 				DD81802829D3321C00C4DF1F /* LoginViewController.storyboard in Resources */,
 				DD7EB9C229D31AC000371AD8 /* Assets.xcassets in Resources */,
 				DD7EB9C029D31ABB00371AD8 /* Main.storyboard in Resources */,
+				DD81802A29D336D400C4DF1F /* TermsViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +203,7 @@
 				DD7EB9B929D31ABB00371AD8 /* AppDelegate.swift in Sources */,
 				DD7EB9BB29D31ABB00371AD8 /* SceneDelegate.swift in Sources */,
 				DD81802629D331FD00C4DF1F /* LoginViewController.swift in Sources */,
+				DD81802D29D336F500C4DF1F /* TermsViewController.swift in Sources */,
 				DD7EB9D029D3217500371AD8 /* DemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
