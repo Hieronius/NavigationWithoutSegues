@@ -68,9 +68,9 @@
 		DD7EB9B729D31ABB00371AD8 /* NavigationWithoutSegues */ = {
 			isa = PBXGroup;
 			children = (
+				DD7EB9D329D3248600371AD8 /* Application */,
 				DD81802B29D336DD00C4DF1F /* Terms */,
 				DD81802429D331EB00C4DF1F /* Login */,
-				DD7EB9D329D3248600371AD8 /* Application */,
 				DD7EB9CD29D3214000371AD8 /* Demo */,
 				DD7EB9CC29D31F9700371AD8 /* Main */,
 				DD7EB9C129D31AC000371AD8 /* Assets.xcassets */,

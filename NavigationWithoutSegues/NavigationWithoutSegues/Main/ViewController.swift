@@ -38,6 +38,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func termsButtonAction(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "TermsViewController", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "TermsViewController")
+        navigationController?.pushViewController(vc, animated: true)
     }
     
 }
