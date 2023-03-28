@@ -13,6 +13,7 @@
 		DD7EB9C029D31ABB00371AD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7EB9BE29D31ABB00371AD8 /* Main.storyboard */; };
 		DD7EB9C229D31AC000371AD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7EB9C129D31AC000371AD8 /* Assets.xcassets */; };
 		DD7EB9C529D31AC000371AD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7EB9C329D31AC000371AD8 /* LaunchScreen.storyboard */; };
+		DD7EB9D029D3217500371AD8 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7EB9CF29D3217500371AD8 /* DemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DD7EB9C129D31AC000371AD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD7EB9C429D31AC000371AD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD7EB9C629D31AC000371AD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7EB9CF29D3217500371AD8 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		DD7EB9B729D31ABB00371AD8 /* NavigationWithoutSegues */ = {
 			isa = PBXGroup;
 			children = (
+				DD7EB9CD29D3214000371AD8 /* Demo */,
 				DD7EB9B829D31ABB00371AD8 /* AppDelegate.swift */,
 				DD7EB9CC29D31F9700371AD8 /* Main */,
 				DD7EB9BA29D31ABB00371AD8 /* SceneDelegate.swift */,
@@ -73,6 +76,14 @@
 				DD7EB9BE29D31ABB00371AD8 /* Main.storyboard */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		DD7EB9CD29D3214000371AD8 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				DD7EB9CF29D3217500371AD8 /* DemoViewController.swift */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 				DD7EB9BD29D31ABB00371AD8 /* ViewController.swift in Sources */,
 				DD7EB9B929D31ABB00371AD8 /* AppDelegate.swift in Sources */,
 				DD7EB9BB29D31ABB00371AD8 /* SceneDelegate.swift in Sources */,
+				DD7EB9D029D3217500371AD8 /* DemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
