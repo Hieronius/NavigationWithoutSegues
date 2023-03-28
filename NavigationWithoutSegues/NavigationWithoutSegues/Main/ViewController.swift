@@ -28,6 +28,7 @@ class ViewController: UIViewController {
         let storyboard = UIStoryboard(name: "DemoViewController", bundle: nil)
         // and here we should define a propper Storyboard ID for this ViewController
         let vc = storyboard.instantiateViewController(withIdentifier: "DemoViewController")
+        vc.modalPresentationStyle = .fullScreen
         present(vc, animated: true)
     }
     
