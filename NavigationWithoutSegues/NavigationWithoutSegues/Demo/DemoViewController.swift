@@ -16,6 +16,7 @@ class DemoViewController: UIViewController {
     // MARK: - IBActions
     
     @IBAction func dismissButtonAction(_ sender: Any) {
+        dismiss(animated: true)
     }
     
 }
