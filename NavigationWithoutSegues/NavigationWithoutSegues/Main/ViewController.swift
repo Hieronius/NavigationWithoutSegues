@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     @IBAction func loginButtonAction(_ sender: Any) {
         let storyboard = UIStoryboard(name: "LoginViewController", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
-        present(vc, animated: true)
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func termsButtonAction(_ sender: Any) {
