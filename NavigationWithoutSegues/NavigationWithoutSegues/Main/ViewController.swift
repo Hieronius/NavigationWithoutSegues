@@ -13,10 +13,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+        
+        print("View did appeared")
+    }
 
     // MARK: - IBActions
     
     @IBAction func demoButtonAction(_ sender: Any) {
+        // there we wan't open our new controller with popower so you don't need NavigationVC and after every of our segues we won't see activation of the method "viewDidLoad"
         // seems like it's just a name of the file with storyboard
         let storyboard = UIStoryboard(name: "DemoViewController", bundle: nil)
         // and here we should define a propper Storyboard ID for this ViewController
