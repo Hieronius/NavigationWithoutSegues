@@ -17,6 +17,11 @@ class ViewController: UIViewController {
     // MARK: - IBActions
     
     @IBAction func demoButtonAction(_ sender: Any) {
+        // seems like it's just a name of the file with storyboard
+        let storyboard = UIStoryboard(name: "DemoViewController", bundle: nil)
+        // and here we should define a propper Storyboard ID for this ViewController
+        let vc = storyboard.instantiateViewController(withIdentifier: "DemoViewController")
+        present(vc, animated: true)
     }
     
     @IBAction func loginButtonAction(_ sender: Any) {

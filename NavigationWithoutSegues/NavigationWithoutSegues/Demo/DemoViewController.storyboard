@@ -22,6 +22,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Dismiss"/>
+                                <connections>
+                                    <action selector="dismissButtonAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Ip8-pb-iYm"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Demo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHT-XL-Mq4">
                                 <rect key="frame" x="166" y="88" width="46" height="21"/>
