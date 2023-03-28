@@ -14,6 +14,16 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    // MARK: - IBActions
+    
+    @IBAction func demoButtonAction(_ sender: Any) {
+    }
+    
+    @IBAction func loginButtonAction(_ sender: Any) {
+    }
+    
+    @IBAction func termsButtonAction(_ sender: Any) {
+    }
+    
 }
 
