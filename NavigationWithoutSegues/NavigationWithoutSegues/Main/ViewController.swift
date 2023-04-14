@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         super.viewDidAppear(true)
         
         print("View did appeared")
+        print("test commit 14.04.23")
     }
 
     // MARK: - IBActions
